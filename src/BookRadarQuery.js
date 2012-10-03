@@ -6,7 +6,6 @@ function BookRadarQuery(keyword, size) {
 	this._size = size;
 	this._count = Math.round(Math.random() * 500);
 	this._totalPage = Math.round(this._count / this._size);
-	this._isFull = false;
 }
 
 BookRadarQuery.prototype.getPage = function(page) {
@@ -15,7 +14,6 @@ BookRadarQuery.prototype.getPage = function(page) {
 	for(var i = 0; i < this._size; i++) {
 		var index = base + i;
 		if(index >= this._count) {
-			this._isFull = true;
 			break;
 		}
 		var book = {
@@ -27,10 +25,6 @@ BookRadarQuery.prototype.getPage = function(page) {
 		books.push(book);
 	}
 	return books;
-}
-
-BookRadarQuery.prototype.isFull = function() {
-	return this._isFull;
 }
 
 BookRadarQuery.nextID = function() {
@@ -54,7 +48,7 @@ BookRadarQuery.query = function(id, page, onResult) {
 	var query = sCachedQueries[id];
 	var books = query.getPage(page);
 	var result = {
-			isFull: query.isFull(),
+			isFull: page >= query._totalPage,
 			books: books
 	};
 	onResult(result);

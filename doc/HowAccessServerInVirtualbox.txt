@@ -1,0 +1,2 @@
+网络连接方式使用Bridge，并且保持IP设置方式和Host一样，如果需要DHCP，则Guest系统设置为DHCP；如果需要手工设置，则Guest也需要手工设置。
+Windows Host的防火墙添加入站规则.
