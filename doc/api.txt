@@ -1,22 +1,23 @@
 输出采用JSON格式
 
 1.初始化查询:
-in: query?q=keyword
+in: query?keyword=...&size=...
 out: {
 		error=...,	//错误信息, 如果不为null，则表示该查询发生错误
 		id=..., 	//查询ID
-		[book0, book1, book2,]		//第一页的数据，可能为空
+		books=[book0, book1, book2,]		//第一页的数据，可能为空
 		}
 2.后续查询:
 in: query?id=...&page=...
 out: {
 		error=...,
 		isFull=ture/fale,	//是否到达查询末尾
-		[book0, book1, book2...]
+		books=[book0, book1, book2...]
 		}
 3.清除查询:
 in: clear?id=...
 out: {
-		error=...
+		error=...,
+		isSucceeded: true/false
 		}
 

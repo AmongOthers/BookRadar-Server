@@ -8,6 +8,7 @@ var doubanBook = require("./douban/doubanBook");
 var library = require("./libraryEngine/gdut");
 var Xml2JSON = require("./lib/Xml2JSON");
 var searchEngine = require("./searchEngine/searchEngine");
+var BookRadarQuery = require("./BookRadarQuery");
 
 function searchLibrary(response, request) {
 	var query = url.parse(request.url).query;
@@ -161,6 +162,48 @@ function dumb_favicon(response, request) {
     response.end();
 }
 
+function bookRadarQuery(response, request) {
+	var query = url.parse(request.url).query;
+	var temp = querystring.parse(query);
+	var keyword = temp.keyword;
+	var size = temp.size;
+	var id = temp.id;
+	var page = temp.page;
+	if(keyword && size) {
+		BookRadarQuery.initQuery(keyword, size, function(result) {
+			_doRsp(response, result);
+		});
+	} 
+	else if(id && page) {
+		BookRadarQuery.query(id, page, function(result) {
+			_doRsp(response, result);
+		});
+	}
+	else {
+		_doWithBadRequest(response, request);
+	}
+}
+
+function bookRadarClearQuery(response, request) {
+	var query = url.parse(request.url).query;
+	var temp = querystring.parse(query);
+	var id = temp.id;
+	if(id) {
+		BookRadarQuery.clear(id, function(result) {
+			_doRsp(response, result);
+		});
+	}
+	else {
+		_doWithBadRequest(response, request);
+	}
+}
+
+function _doRsp(response, obj) {
+	response.writeHead(200, {"Content-Type": "text/plain"});
+	response.write(JSON.stringify(obj));
+	response.end();
+}
+
 function _doWithBadRequest(response, request) {
 	response.writeHead(400, {"Content-Type": "text/plain"});
 	response.write("Bad request:" + request.url);
@@ -180,5 +223,7 @@ exports.handlers = {
    "/search": search,
    "/searchDouban": searchDouban,
    "/searchLibrary": searchLibrary,
+   "/query": bookRadarQuery,
+   "/clear": bookRadarClearQuery,
    "/favicon.ico": dumb_favicon
 };
