@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:db="http://www.douban.com/xmlns/" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/">
+	<title>搜索 java 的结果</title>
+	<opensearch:startIndex>1</opensearch:startIndex>
+	<opensearch:totalResults>2459</opensearch:totalResults>
+	<entry>
+		<id>http://api.douban.com/book/subject/1484491</id>
+		<title>Java 2入门经典</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>（美）霍顿（Horton I.）  著，潘晓雷  等译</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/1484491" rel="self"/>
+		<link href="http://book.douban.com/subject/1484491/" rel="alternate"/>
+		<link href="http://img1.douban.com/spic/s1502324.jpg" rel="image"/>
+		<link href="http://m.douban.com/book/subject/1484491/" rel="mobile"/>
+		<db:attribute name="isbn10">7111180895</db:attribute>
+		<db:attribute name="isbn13">9787111180890</db:attribute>
+		<db:attribute name="author">（美）霍顿（Horton I.）  著，潘晓雷  等译</db:attribute>
+		<db:attribute name="price">118.00元</db:attribute>
+		<db:attribute name="publisher">机械工业</db:attribute>
+		<db:attribute name="pubdate">2006-1</db:attribute>
+		<gd:rating average="9.0" max="10" min="0" numRaters="51"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/1313042</id>
+		<title>Java编程思想</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>埃克尔,</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/1313042" rel="self"/>
+		<link href="http://book.douban.com/subject/1313042/" rel="alternate"/>
+		<link href="http://img5.douban.com/spic/s1320039.jpg" rel="image"/>
+		<link href="http://m.douban.com/book/subject/1313042/" rel="mobile"/>
+		<db:attribute name="isbn10">711116220X</db:attribute>
+		<db:attribute name="isbn13">9787111162209</db:attribute>
+		<db:attribute name="author">埃克尔,</db:attribute>
+		<db:attribute name="price">95.00元</db:attribute>
+		<db:attribute name="publisher">机械工业出版社</db:attribute>
+		<db:attribute name="pubdate">2005-5</db:attribute>
+		<gd:rating average="8.9" max="10" min="0" numRaters="481"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/3246499</id>
+		<title>疯狂Java讲义</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>李刚</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/3246499" rel="self"/>
+		<link href="http://book.douban.com/subject/3246499/" rel="alternate"/>
+		<link href="http://img3.douban.com/spic/s6862076.jpg" rel="image"/>
+		<link href="http://m.douban.com/book/subject/3246499/" rel="mobile"/>
+		<db:attribute name="isbn10">7121066467</db:attribute>
+		<db:attribute name="isbn13">9787121066467</db:attribute>
+		<db:attribute name="author">李刚</db:attribute>
+		<db:attribute name="price">99.00元</db:attribute>
+		<db:attribute name="publisher">电子工业</db:attribute>
+		<db:attribute name="pubdate">2008-10</db:attribute>
+		<gd:rating average="8.6" max="10" min="0" numRaters="156"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/2130190</id>
+		<title>Java编程思想 （第4版）</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>[美] Bruce Eckel</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/2130190" rel="self"/>
+		<link href="http://book.douban.com/subject/2130190/" rel="alternate"/>
+		<link href="http://img5.douban.com/spic/s2664219.jpg" rel="image"/>
+		<link href="http://m.douban.com/book/subject/2130190/" rel="mobile"/>
+		<db:attribute name="isbn10">7111213823</db:attribute>
+		<db:attribute name="isbn13">9787111213826</db:attribute>
+		<db:attribute name="translator">陈昊鹏</db:attribute>
+		<db:attribute name="author">[美] Bruce Eckel</db:attribute>
+		<db:attribute name="price">108.00元</db:attribute>
+		<db:attribute name="publisher">机械工业出版社</db:attribute>
+		<db:attribute name="pubdate">2007-6</db:attribute>
+		<gd:rating average="9.1" max="10" min="0" numRaters="1366"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/1138768</id>
+		<title>深入Java虚拟机(原书第2版)</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>（美）文纳斯</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/1138768" rel="self"/>
+		<link href="http://book.douban.com/subject/1138768/" rel="alternate"/>
+		<link href="http://img3.douban.com/spic/s9845378.jpg" rel="image"/>
+		<link href="http://m.douban.com/book/subject/1138768/" rel="mobile"/>
+		<db:attribute name="isbn10">7111128052</db:attribute>
+		<db:attribute name="isbn13">9787111128052</db:attribute>
+		<db:attribute name="author">（美）文纳斯</db:attribute>
+		<db:attribute name="price">58.00元</db:attribute>
+		<db:attribute name="publisher">机械工业出版社</db:attribute>
+		<db:attribute name="translator">曹晓钢</db:attribute>
+		<db:attribute name="translator">蒋靖</db:attribute>
+		<db:attribute name="pubdate">2003-9</db:attribute>
+		<gd:rating average="8.5" max="10" min="0" numRaters="426"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/1246129</id>
+		<title>Effective Java</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>Joshua Bloch</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/1246129" rel="self"/>
+		<link href="http://book.douban.com/subject/1246129/" rel="alternate"/>
+		<link href="http://img5.douban.com/spic/s1408749.jpg" rel="image"/>
+		<link href="http://m.douban.com/book/subject/1246129/" rel="mobile"/>
+		<db:attribute name="isbn10">0201310058</db:attribute>
+		<db:attribute name="isbn13">9780201310054</db:attribute>
+		<db:attribute name="author">Joshua Bloch</db:attribute>
+		<db:attribute name="price">$44.99</db:attribute>
+		<db:attribute name="publisher">Addison-Wesley Professional</db:attribute>
+		<db:attribute name="pubdate">05 June, 2001</db:attribute>
+		<gd:rating average="9.0" max="10" min="0" numRaters="86"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/1103015</id>
+		<title>Effective Java中文版</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>（美）Joshua Bloch</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/1103015" rel="self"/>
+		<link href="http://book.douban.com/subject/1103015/" rel="alternate"/>
+		<link href="http://img5.douban.com/spic/s2008079.jpg" rel="image"/>
+		<link href="http://m.douban.com/book/subject/1103015/" rel="mobile"/>
+		<db:attribute name="isbn10">7111113853</db:attribute>
+		<db:attribute name="isbn13">9787111113850</db:attribute>
+		<db:attribute name="translator">潘爱民</db:attribute>
+		<db:attribute name="author">（美）Joshua Bloch</db:attribute>
+		<db:attribute name="price">39.00元</db:attribute>
+		<db:attribute name="publisher">机械工业出版社</db:attribute>
+		<db:attribute name="pubdate">2003-1</db:attribute>
+		<gd:rating average="8.9" max="10" min="0" numRaters="644"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/1504092</id>
+		<title>深入浅出Java</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>Kathy Sierra</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/1504092" rel="self"/>
+		<link href="http://book.douban.com/subject/1504092/" rel="alternate"/>
+		<link href="http://img3.douban.com/spic/s10013166.jpg" rel="image"/>
+		<link href="http://m.douban.com/book/subject/1504092/" rel="mobile"/>
+		<db:attribute name="isbn10">7564101644</db:attribute>
+		<db:attribute name="isbn13">9787564101640</db:attribute>
+		<db:attribute name="author">Kathy Sierra</db:attribute>
+		<db:attribute name="price">98.0</db:attribute>
+		<db:attribute name="publisher">东南大学出版社</db:attribute>
+		<db:attribute name="pubdate">2005-11</db:attribute>
+		<gd:rating average="9.0" max="10" min="0" numRaters="54"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/2000732</id>
+		<title>Head First Java（中文版）</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>Kathy Sierra,Bert Bates 著</name>
+		</author>
+		<author>
+			<name>杨尊一 编译 张然等 改编</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/2000732" rel="self"/>
+		<link href="http://book.douban.com/subject/2000732/" rel="alternate"/>
+		<link href="http://img3.douban.com/spic/s2171906.jpg" rel="image"/>
+		<link href="http://m.douban.com/book/subject/2000732/" rel="mobile"/>
+		<db:attribute name="isbn10">7508344987</db:attribute>
+		<db:attribute name="isbn13">9787508344980</db:attribute>
+		<db:attribute name="translator">杨尊一</db:attribute>
+		<db:attribute name="author">Kathy Sierra,Bert Bates 著</db:attribute>
+		<db:attribute name="author">杨尊一 编译 张然等 改编</db:attribute>
+		<db:attribute name="price">79.00元</db:attribute>
+		<db:attribute name="publisher">中国电力出版社</db:attribute>
+		<db:attribute name="pubdate">2007年2月</db:attribute>
+		<gd:rating average="8.9" max="10" min="0" numRaters="333"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/1882459</id>
+		<title>Java语言程序设计</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>梁</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/1882459" rel="self"/>
+		<link href="http://book.douban.com/subject/1882459/" rel="alternate"/>
+		<link href="http://img3.douban.com/spic/s10354987.jpg" rel="image"/>
+		<link href="http://m.douban.com/book/subject/1882459/" rel="mobile"/>
+		<db:attribute name="isbn10">7111190599</db:attribute>
+		<db:attribute name="isbn13">9787111190592</db:attribute>
+		<db:attribute name="translator">王镁</db:attribute>
+		<db:attribute name="author">梁</db:attribute>
+		<db:attribute name="price">58.00元</db:attribute>
+		<db:attribute name="publisher">机械工业出版社</db:attribute>
+		<db:attribute name="pubdate">2006-8</db:attribute>
+		<gd:rating average="7.8" max="10" min="0" numRaters="90"/>
+	</entry>
+	<opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+</feed>

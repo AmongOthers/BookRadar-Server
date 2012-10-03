@@ -1,0 +1,289 @@
+                       <tbody> 
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="572768" onclick="savethis(this);" />1</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=572768" target="_blank">新手学JavaFX [专著]</a></span></td>
+                                  <td>(美)J. F. DiMarzio著；梁凯译</td>
+                                  <td>清华大学出版社</td>
+                                  <td>2012</td>
+                                  <td class="tbr">TP312JA/D45</td>
+                                  <td class="tbr">4</td>
+                                  <td class="tbr">2</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="569262" onclick="savethis(this);" />2</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=569262" target="_blank">哈罗!美利坚 [专著]＝Hello! America：一个中国家庭的美国生活琐记</a></span></td>
+                                  <td>闫庚函著</td>
+                                  <td>电子工业出版社</td>
+                                  <td>2012</td>
+                                  <td class="tbr">I253.7/Y17</td>
+                                  <td class="tbr">3</td>
+                                  <td class="tbr">0</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="559514" onclick="savethis(this);" />3</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=559514" target="_blank">电话英语说对了没? [专著]·情境会话篇</a></span></td>
+                                  <td>(美)亚历克斯·莱斯(Alex Rath)著；朱文宜译</td>
+                                  <td>中国人民大学出版社</td>
+                                  <td>2011</td>
+                                  <td class="tbr">H319.9/L12</td>
+                                  <td class="tbr">3</td>
+                                  <td class="tbr">2</td>
+                                  <td>
+                                    
+                                        <img onmouseover="this.style.cursor='pointer'" src="./sample_files/resource.gif" onclick="javascript:getbookresource('559514','电话英语说对了没? [专著]·情境会话篇',this,'getbookresourceAjax.aspx')" width="25px" height="25px" />
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="558041" onclick="savethis(this);" />4</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=558041" target="_blank">Android游戏编程之从零开始 [专著]</a></span></td>
+                                  <td>李华明编著</td>
+                                  <td>清华大学出版社</td>
+                                  <td>2011</td>
+                                  <td class="tbr">TN929.53/L324</td>
+                                  <td class="tbr">8</td>
+                                  <td class="tbr">0</td>
+                                  <td>
+                                    
+                                        <img onmouseover="this.style.cursor='pointer'" src="./sample_files/resource.gif" onclick="javascript:getbookresource('558041','Android游戏编程之从零开始 [专著]',this,'getbookresourceAjax.aspx')" width="25px" height="25px" />
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="528074" onclick="savethis(this);" />5</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=528074" target="_blank">ASP.NET 4权威指南 [专著]</a></span></td>
+                                  <td>马伟著</td>
+                                  <td>机械工业出版社</td>
+                                  <td>2011</td>
+                                  <td class="tbr">TP393.4/M180</td>
+                                  <td class="tbr">3</td>
+                                  <td class="tbr">0</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="555449" onclick="savethis(this);" />6</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=555449" target="_blank">Hello, Mr. Package! [monograph]</a></span></td>
+                                  <td>[SendPoints Publishing Co.]</td>
+                                  <td>SendPoints Publishing Co.</td>
+                                  <td>c2010</td>
+                                  <td class="tbr">J534.2/S474</td>
+                                  <td class="tbr">1</td>
+                                  <td class="tbr">0</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="528633" onclick="savethis(this);" />7</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=528633" target="_blank">C语言从入门到精通 [专著]</a></span></td>
+                                  <td>国家863中部软件孵化器编著</td>
+                                  <td>人民邮电出版社</td>
+                                  <td>2010.07</td>
+                                  <td class="tbr">TP312C/Z65-3</td>
+                                  <td class="tbr">4</td>
+                                  <td class="tbr">0</td>
+                                  <td>
+                                    
+                                        <img onmouseover="this.style.cursor='pointer'" src="./sample_files/resource.gif" onclick="javascript:getbookresource('528633','C语言从入门到精通 [专著]',this,'getbookresourceAjax.aspx')" width="25px" height="25px" />
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="528335" onclick="savethis(this);" />8</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=528335" target="_blank">Flex 4一学就会＝Hello! Flex 4</a></span></td>
+                                  <td>(加)Peter Armstrong著；张猛译</td>
+                                  <td>人民邮电出版社</td>
+                                  <td>2010</td>
+                                  <td class="tbr">TP311.56/A115</td>
+                                  <td class="tbr">3</td>
+                                  <td class="tbr">0</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="505132" onclick="savethis(this);" />9</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=505132" target="_blank">Android基础教程 [专著]＝Hello, Android：introducing Google's mobile development platform</a></span></td>
+                                  <td>(美)Ed Burnette著；张波...等译</td>
+                                  <td>人民邮电出版社</td>
+                                  <td>2009</td>
+                                  <td class="tbr">TN929.53-39/B91</td>
+                                  <td class="tbr">3</td>
+                                  <td class="tbr">0</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="494720" onclick="savethis(this);" />10</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=494720" target="_blank">美国年轻人常说的话 [专著]·你好,朋友</a></span></td>
+                                  <td>金莉主编</td>
+                                  <td>世界图书出版西安公司</td>
+                                  <td>2009</td>
+                                  <td class="tbr">H319.9/J670-5</td>
+                                  <td class="tbr">6</td>
+                                  <td class="tbr">5</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="488778" onclick="savethis(this);" />11</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=488778" target="_blank">琢石成器 [专著]：Windows环境下32位汇编语言程序设计</a></span></td>
+                                  <td>罗云彬著</td>
+                                  <td>电子工业出版社</td>
+                                  <td>2009</td>
+                                  <td class="tbr">TP313/L98#1</td>
+                                  <td class="tbr">4</td>
+                                  <td class="tbr">0</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="474476" onclick="savethis(this);" />12</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=474476" target="_blank">深入浅出Ext JS [专著]</a></span></td>
+                                  <td>徐会生, 何启伟, 康爱媛著</td>
+                                  <td>人民邮电出版社</td>
+                                  <td>2009</td>
+                                  <td class="tbr">TP393.092/X746</td>
+                                  <td class="tbr">3</td>
+                                  <td class="tbr">0</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="320091" onclick="savethis(this);" />13</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=320091" target="_blank">Windows环境下32位汇编语言程序设计</a></span></td>
+                                  <td>罗云彬编著</td>
+                                  <td>电子工业出版社</td>
+                                  <td>2006</td>
+                                  <td class="tbr">TP313/L98(2)</td>
+                                  <td class="tbr">8</td>
+                                  <td class="tbr">3</td>
+                                  <td>
+                                    
+                                        <img onmouseover="this.style.cursor='pointer'" src="./sample_files/resource.gif" onclick="javascript:getbookresource('320091','Windows环境下32位汇编语言程序设计',this,'getbookresourceAjax.aspx')" width="25px" height="25px" />
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="348022" onclick="savethis(this);" />14</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=348022" target="_blank">Hello,小狐狸</a></span></td>
+                                  <td>淡淡著</td>
+                                  <td>北方文艺出版社</td>
+                                  <td>2005</td>
+                                  <td class="tbr">I247.57/D21</td>
+                                  <td class="tbr">5</td>
+                                  <td class="tbr">5</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="332187" onclick="savethis(this);" />15</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=332187" target="_blank">Contributing to Eclipse中文版 [专著]</a></span></td>
+                                  <td>(美)Erich Gamma,(美)Kent Beck著；熊节译</td>
+                                  <td>中国电力出版社</td>
+                                  <td>2005</td>
+                                  <td class="tbr">TP311.56/J282</td>
+                                  <td class="tbr">8</td>
+                                  <td class="tbr">7</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="432222" onclick="savethis(this);" />16</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=432222" target="_blank">Hello英语经典句·导游英语 [汇编]</a></span></td>
+                                  <td>李生禄主编</td>
+                                  <td>云南人民出版社</td>
+                                  <td>2004</td>
+                                  <td class="tbr">H319.9/L344.1-8</td>
+                                  <td class="tbr">4</td>
+                                  <td class="tbr">3</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="432183" onclick="savethis(this);" />17</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=432183" target="_blank">Hello英语经典句 [汇编]·的哥英语</a></span></td>
+                                  <td>李生禄主编</td>
+                                  <td>云南人民出版社</td>
+                                  <td>2004</td>
+                                  <td class="tbr">H319.9/L344.1-7</td>
+                                  <td class="tbr">4</td>
+                                  <td class="tbr">3</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="432087" onclick="savethis(this);" />18</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=432087" target="_blank">Hello英语经典句·运动员英语 [汇编]</a></span></td>
+                                  <td>李生禄主编</td>
+                                  <td>云南人民出版社</td>
+                                  <td>2004</td>
+                                  <td class="tbr">H319.9/L344.1-6</td>
+                                  <td class="tbr">4</td>
+                                  <td class="tbr">3</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="431995" onclick="savethis(this);" />19</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=431995" target="_blank">Hello英语经典句 [专著]·留学生英语</a></span></td>
+                                  <td>李生禄主编</td>
+                                  <td>云南人民出版社</td>
+                                  <td>2004</td>
+                                  <td class="tbr">H319.9/L344.1-5</td>
+                                  <td class="tbr">4</td>
+                                  <td class="tbr">3</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                        
+                            <tr>
+                                  <td><input type="checkbox" name="searchresult_cb" value="431994" onclick="savethis(this);" />20</td>
+                                  <td><span class="title"><a href="http://222.200.98.171:81/bookinfo.aspx?ctrlno=431994" target="_blank">Hello英语经典句·学生英语</a></span></td>
+                                  <td>李生禄主编</td>
+                                  <td>云南人民出版社</td>
+                                  <td>2004</td>
+                                  <td class="tbr">H319.9/L344.1-4</td>
+                                  <td class="tbr">4</td>
+                                  <td class="tbr">3</td>
+                                  <td>
+                                    
+                                  </td>
+                                 </tr>
+                       </tbody>

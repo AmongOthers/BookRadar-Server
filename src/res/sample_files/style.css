@@ -1,0 +1,3459 @@
+﻿body 
+{
+	padding:0px;
+	margin:0px;
+	background: #fff;
+	font: 12px Arial, Helvetica, sans-serif; 
+	color: #333; 
+	text-align: center;
+	_width:expression(window.screen.width < 1024? "1000px": "auto");
+}
+form 
+{
+	border:0px;
+	padding:0px;
+	margin: 0px; 
+}
+img 
+{
+	border:0px;
+	vertical-align:middle;
+}
+.clearFix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearFix{display:inline-block;}
+/* Hides from IE-mac \*/
+* html .clearFix {height:1%;}
+.clearFix {display:block;}
+/* End hide from IE-mac */
+
+.clear {
+	clear: both; 
+	font-size: 0px; 
+	line-height: 0
+}
+
+button 
+{
+	font-size: 12px; 
+	color: #333
+}
+input 
+{
+	font-size: 12px; 
+	color: #333
+}
+select 
+{
+	font-size: 12px; 
+	color: #000000;
+}
+textarea 
+{
+	font-size: 12px; 
+	color: #333
+}
+select 
+{
+	height: 20px
+}
+
+.pl15
+{
+	padding-left:15px;
+}
+
+hr 
+{
+	border-right: #999 0px dashed; 
+	border-top: #999 1px dashed; 
+	border-left: #999 0px dashed; 
+	border-bottom: #999 0px dashed; 
+	height: 0px
+}
+
+h1 
+{
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+h2 
+{
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+h3 
+{
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+h4 
+{
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+h5 
+{
+	font-size:13px;padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+h6 
+{
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+ul 
+{
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+ul 
+{
+	list-style-type: none
+}
+a 
+{
+	color: #007ab7; text-decoration: none
+}
+a:hover 
+{
+	color: #e66b10; text-decoration: underline
+}
+.hide
+{
+	display:none;
+}
+.linkunder
+{
+	text-decoration:underline;	
+}
+.rf
+{
+	color:#ff0000;
+}
+
+.bf
+{
+	color:#0000ff;
+}
+
+.gf
+{
+	color:#00b000;
+}
+
+.b
+{
+	font-weight:bold;
+}
+
+.tb
+{
+	border-right: #ddd 1px solid; border-top: #ddd 1px solid; font-size: 12px; border-left: #ddd 1px solid; border-bottom: #ddd 1px solid; border-collapse: collapse
+}
+
+.tbhead
+{
+	/*background-color:#e0f0fd*/
+	background-color:#d4eeff;
+}
+
+.tb_blue
+{
+	border:1px solid #8fc4ee;
+}
+
+.tb_blue td
+{
+	border:1px solid #8fc4ee;
+}
+
+.tb_blue tr.alter
+{
+	background-color:#fdfdf2;
+}
+
+.tb_blue tr.selected
+{
+	background-color:#003399;
+	color:#ffffff;
+}
+
+.tb_blue tr.selected a
+{
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+.tbl
+{
+	text-align:left;
+}
+
+.tbr
+{
+	text-align:right;
+}
+
+.tbc
+{
+	text-align:center;
+}
+
+.fl
+{
+	float:left;
+}
+
+.fr
+{
+	float:right;
+}
+
+.pd
+{
+	margin-top:5px;
+	margin-bottom:5px;
+	height:30px;
+}
+
+.mt10
+{
+	margin-top:10px;
+}
+
+.underline
+{
+	text-decoration:underline;
+}
+
+.normallink
+{
+	font: 12px Arial, Helvetica, sans-serif; 
+	font-weight:normal;
+}
+
+.normallink hover
+{
+	font: 12px Arial, Helvetica, sans-serif; 
+	font-weight:normal;
+}
+
+.cb label
+{
+	margin-left:6px;
+}
+
+li.list
+{
+	list-style-type:none;
+	margin-left:6px!important;
+	margin-left:0px;
+	padding-left:0px;
+}
+
+.autocompletediv
+{
+	  position:absolute;
+      overflow-x:hidden;
+      overflow-y:auto;
+      background-color:white;
+      border:1px solid gray;
+      margin:0px;
+      padding:0px;
+}
+
+.autocompletediv ul {
+	list-style:none!important;
+	list-style-image:none!important;
+	margin:0px;
+	padding:0px;
+}
+
+.autocompletediv ul li
+{
+	list-style-type:none;
+	display:block;
+	margin:0;
+	padding:2px;
+	cursor:pointer;
+	color:#aaaaaa;
+	line-height:15px;
+}
+
+.autocompletediv ul li.selected 
+{
+	background-color: #3366cc;
+}
+
+.autocompletediv ul li.unselected 
+{
+	background-color: #ffffff;
+}
+
+.hrw550
+{
+	width:580px;	
+	float:left;
+}
+
+#header
+{
+	height:50px;
+	background-color:#dff3fe;
+	border-bottom:#7f9db9 1px solid;
+}
+
+#headerlogo
+{
+	height:50px;
+	text-align:left;
+	font-weight:bold;
+	/*background:url(../images/header.gif) no-repeat 5px 10px;*/
+	padding-left:10px;
+	float:left;
+}
+
+#headerlogo img
+{
+   margin-top:7px; 
+}
+
+#headertext
+{
+	height:50px;
+	text-align:left;
+	font-size:20px;
+	font-weight:bold;
+	line-height:50px;
+	float:left;
+	padding-left:5px;
+	font-family:楷体_GB2312;
+}
+
+#headermenu
+{
+	height:25px;
+	text-align:right;
+	line-height:25px;
+	padding-right:20px;
+	float:right;
+}
+
+#content
+{
+	min-height:500px;height:auto;
+	_height:500px;
+	text-align:left;
+}
+
+#footer
+{
+	border-top:1px solid;
+	/*text-align:center;*/
+	text-align:left;
+	font-size:12px;
+	font-family:Times New Roman;
+	color:#7a7a7a;
+	padding-top:5px;
+	line-height:1.5em;
+	min-height:30px;height:auto;
+	_height:30px;
+	/*background-color:#EBF5FB;*/
+}
+
+#footer .footer div
+{
+	padding-left:10px;
+}
+
+#footer .footer div.footertext
+{
+	padding-top:6px;
+}
+
+.redlink
+{
+	color: #ff0000; text-decoration: none
+}
+
+.redlink:hover 
+{
+	color: #ff0000; text-decoration: underline
+}
+
+.redfont
+{
+	color:#ff0000;
+}
+
+.redfontl
+{
+	color:#ff0000;
+	text-align:left;
+}
+
+#pagemenu
+{
+	height:30px;
+	line-height:30px;
+	/*background-color:#3a93dd;*/
+	background-color:#00A5EC;
+	text-align:left;
+	padding-left:30px;
+	font-size:13px;
+}
+
+#pagemenu li
+{
+	display:inline;
+}
+
+#pagemenu a
+{
+	display: table-cell; /* For firefox and Opera */
+	display:inline-block;/* For Opera and IE */
+	color:#ffffff;
+	padding:0px 10px 0px 10px;
+}
+
+#pagemenu a:hover
+{
+	display: table-cell; /* For firefox and Opera */
+	display:inline-block;/* For Opera and IE */
+	color:#007ab7;
+	text-decoration:underline;
+	background-color:#EBF5FB;
+}
+
+#pagemenu a.select
+{
+	display: table-cell; /* For firefox and Opera */
+	display:inline-block;/* For Opera and IE */
+	color:#007ab7;
+	padding:0px 10px 0px 10px;
+	background-color:#EBF5FB;
+	border-top:1px solid #00A5EC;
+}
+
+#pagesubmenu
+{
+	height:25px;
+	line-height:25px;
+	background-color:#EBF5FB;
+	text-align:left;
+	padding-left:30px;
+	font-size:12px;
+	border-bottom:1px solid #ddd;
+}
+
+#pagesubmenu li
+{
+	display:inline;
+}
+
+#pagesubmenu a
+{
+	display: table-cell; /* For firefox and Opera */
+	display:inline-block;/* For Opera and IE */
+	color:#007ab7;
+	padding:0px 10px 0px 10px;
+}
+
+#pagesubmenu a:hover
+{
+	display: table-cell; /* For firefox and Opera */
+	display:inline-block;/* For Opera and IE */
+	color:#e66b10;
+	text-decoration:underline;
+	/*background-color:#00A5EC;*/
+}
+
+#pagesubmenu a.select
+{
+	display: table-cell; /* For firefox and Opera */
+	display:inline-block;/* For Opera and IE */
+	color:#e66b10;
+	padding:0px 10px 0px 10px;
+}
+
+#errordiv
+{
+	margin-top:10px;
+	margin-left:15px;
+}
+
+#errordiv h3
+{
+	font-size:14px;
+}
+
+#errordiv span
+{
+	background-color:#E9F0FF;
+	color:#333;
+	font-family :宋体;
+}
+
+.loadingOuterDiv { 
+	height: 100px; 
+	width: 220px; 
+	overflow: hidden; 
+	background:#ffffff; 
+	position: static !important; 
+	position: relative; 
+	display: table !important;
+	padding:10px; 
+} 
+#loadingMiddleDiv { /* for explorer only*/ 
+	position: absolute; 
+	top: 50%; 
+} 
+#loadingMiddleDiv[id] { 
+	display: table-cell; 
+	vertical-align: middle; 
+	position: static; 
+} 
+#loadingInnerDiv { /* for explorer only */ 
+	position: relative; 
+	top: -50%; 
+	width: 100%; 
+	margin: 0 auto; 
+	text-align:center 
+}
+
+#loginmsg
+{
+	color:#0000ff;
+}
+
+h1.pagetitle
+{
+	font-size:14px;
+	padding-bottom:8px;
+	margin-bottom:15px;
+	padding-right: 4px; 
+	padding-left: 10px; 
+	color: #333; 
+	line-height: 16px; 
+	height: 16px;
+	border-bottom:1px solid #ddd;
+}
+h1.pagetitle span
+{
+	padding-left:5px;
+	font-size:13px;
+	font-weight:normal;
+}
+.pagecontent
+{
+	padding-left:15px;
+}
+
+#searchmain
+{
+	padding-left:15px;
+	margin-top:20px;
+	width:980px;
+}
+
+#searchmainleft
+{
+
+}
+
+#searchmainleft h5
+{
+	margin-bottom:15px;
+}
+
+.searchpoint
+{
+	font-size:14px;
+}
+
+.searchpoint >option { 
+text-indent: 2px; /*option在FF等非IE浏览器缩进2px*/
+} 
+
+#quicksearchpointright
+{
+	margin-left:20px;
+}
+
+#quicksearchpointright .contr
+{
+	border:1px solid #8fc4ee;
+	padding-left:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:750px;
+	background-color:#dff3fe;
+}
+
+#quicksearchpointright .note
+{
+	width:750px;
+}
+#quicksearchpointright .note dt
+{
+	font-weight: bold;
+	/*padding-right: 4px; 
+	padding-left: 10px; 
+	 
+	font-size: 13px; 
+	background: #d4eeff; 
+	padding-bottom: 3px; 
+	margin: 0px; 
+	color: #333; 
+	line-height: 15px; 
+	padding-top: 5px; 
+	position: relative; 
+	height: 15px;*/
+}
+
+#quicksearchpointright .note dd
+{
+	margin:0px;
+	padding-left:15px;
+	margin-top:5px;
+	line-height:15px;
+}
+
+#quicksearchpointright .hot
+{
+	width:750px;
+}
+
+#quicksearchpointright .hotlink
+{
+	text-decoration:underline;
+}
+
+#quicksearchpointright .hotmore:
+{
+	text-decoration:none;
+}
+
+#quicksearchpointright .hottitle
+{
+	font-weight: bold;
+}
+
+#sh_login_hint
+{
+	margin-left:10px;
+	font-size:12px;
+	font-weight:normal;
+}
+
+#sh_login_hint a
+{
+	text-decoration:underline;
+}
+
+#searchmainbottom
+{
+	margin-top:10px;
+	padding-left:150px;
+}
+
+#searchparam
+{
+	margin-top:15px;
+	color:#000000;
+	background-color:#dff3fe;
+	width:560px;
+	padding-left:10px;
+	padding-top:15px;
+	padding-bottom:10px;
+}
+
+#searchparam div
+{
+	margin-top:10px;
+}
+
+#searchparam label
+{
+	margin-right:5px;
+}
+
+#searchmainright
+{
+	margin-left:12px;
+	width:150px;
+}
+
+#searchmainright dl
+{
+	margin-top:28px;
+	border:1px solid #ddd;
+}
+
+#searchmainright dt
+{
+	padding-right: 4px; padding-left: 10px; font-weight: bold; font-size: 13px; background: #dff3fe; padding-bottom: 3px; margin: 0px; color: #333; line-height: 16px; padding-top: 5px; position: relative; height: 16px;border-bottom:1px solid #ddd;
+}
+
+#searchmainright dt .sl
+{
+	float:left;
+}
+
+#searchmainright dt .sr
+{
+	float:right;
+	font: 10px Arial, Helvetica, sans-serif;
+	padding-top:2px; 
+}
+
+#searchmainright dd
+{
+	margin:0 0 0px 0;
+	padding:0px;
+	background-color:#dff3fe;
+}
+
+#searchmainright dt img
+{
+	margin-right:5px;
+	margin-top:-2px;
+	cursor:pointer;
+}
+
+.hotblk01 
+{
+	display: inline-block; 
+	overflow: hidden; 
+	width: 140px; 
+}
+
+#hotblk01menu {
+	float: left; 
+	overflow: hidden; 
+	width: 24px; 
+	min-height: 200px;height:auto;
+	
+}
+#hotblk01menu li {
+	padding-right: 0px; 
+	padding-left: 4px; 
+	background-color:#fff;
+	padding-bottom: 0px; 
+	overflow: hidden; 
+	width: 19px; 
+	cursor: pointer; 
+	color: #484d51; 
+	line-height: 14px; 
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	border-bottom: #dff3fe 1px solid;
+	border-right:1px solid #ddd;
+	height: 40px;
+	word-wrap: break-word;
+	/*writing-mode:tb-rl;*/
+	/*layout-flow:vertical-ideographic*/
+}
+#hotblk01menu li.on 
+{
+	background-color:#dff3fe;
+	border-bottom: #ddd 1px solid;
+	border-right:1px solid #dff3fe;
+	border-top: #ddd 1px solid;
+}
+#hotblk01menu li.light
+{
+	color: #e66b10;
+}
+.hotblk01con {
+	padding-right: 0px; 
+	padding-left: 0px; 
+	float: right; 
+	padding-bottom: 0px; 
+	width: 110px; 
+	padding-top: 10px;
+	min-height: 200px;height:auto;
+	filter:progid:DXImageTransform.Microsoft.Fade(duration=0.5,overlap=1.0);
+	
+}
+.hotblk01con li 
+{
+	width:100%;
+	overflow: hidden; 
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	clear: both; 
+	height: 28px;
+	color:#007ab7;
+}
+
+.hotblk01con li a
+{
+	/*text-decoration:underline;*/
+}
+
+#searchnotfound
+{
+	padding-left:40px;
+	margin-top:20px;
+	padding-right:20px;
+	font-weight:bold;
+}
+
+#searchresulttabmenu
+{
+	padding-left:20px;
+	margin-top:10px;
+	padding-right:20px;
+}
+
+#searchresulttab
+{
+	margin-bottom:5px;
+}
+#searchresulttab ul
+{
+	margin:0px;
+	padding:0px;
+}
+#searchresulttab ul li
+{
+	display:inline;
+	cursor:pointer;
+}
+#searchresulttab ul li.on a
+{
+	text-decoration:none;
+	color:#333;
+}
+#searchresulttab ul li.off a
+{
+	text-decoration:underline;
+	color:#007ab7;
+}
+
+#searchresultmain
+{
+	padding-left:20px;
+	margin-top:10px;
+	padding-right:20px;
+}
+
+#searchpoint
+{
+	height:40px;
+}
+
+#searchcondition
+{
+	margin-top:15px;
+	height:20px;
+	border-top:1px solid #EFD8C1;
+	background-color:#FFEFDF;
+	padding-left:10px;
+	padding-top:2px;
+	margin-bottom:5px;
+	font-size:13px;
+	font-weight:normal;
+}
+
+.searchcondition
+{
+	margin-top:15px;
+	height:20px;
+	border-top:1px solid #EFD8C1;
+	background-color:#FFEFDF;
+	padding-left:10px;
+	padding-top:2px;
+	margin-bottom:5px;
+	font-size:13px;
+	font-weight:normal;
+}
+
+#searchresult
+{
+	margin-top:0px;
+	width:100%;
+	max-width:1024px;
+	_width:expression(document.body.clientWidth > 1024? "1024px": "auto");
+
+}
+
+#searchresultpoint .searchpointdiv
+{
+	border:1px solid #8fc4ee;
+	padding-left:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:800px;
+	background-color:#dff3fe;
+}
+
+#searchresultpoint .searchpointdiv .btn
+{
+	margin-left:10px;
+	height:25px;
+}
+
+#search_dzs_main
+{
+	text-align:left;
+}
+
+*+html #search_dzs_main
+{
+	float:left;
+}
+
+#search_dzs_main #searchresultmain
+{
+	padding-left:5px;
+}
+
+#search_dzs_main #searchresultmain #searchresult
+{
+	margin-top:10px;
+	min-height:700px;height:auto;
+	_height:700px;
+}
+
+#search_dzs_main .searchpointdiv
+{
+	width:750px;
+}
+
+#search_dzs_main .searchpointdiv a
+{
+	text-decoration:underline;
+}
+
+#search_zn_maindiv
+{
+	padding-left:15px;
+	margin-top:20px;
+}
+
+#search_zn_maindiv #searchpointdiv
+{
+	margin-top:10px;
+}
+
+#search_zn_maindiv #searchpointdiv a
+{
+	text-decoration:underline;
+}
+
+#search_zn_maindiv #searchcontrdiv
+{
+	margin-top:20px;
+}
+
+#search_zn_maindiv .btn
+{
+	margin-left:10px;
+	height:25px;
+}
+
+#search_zn_maindiv .helpmsgnote
+{
+	width:300px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	margin-right:5px;
+	border:1px solid #333;
+	padding:2px;
+	line-height:18px;
+}
+
+#searchresult_znmaindiv
+{
+	padding-left:15px;
+	margin-top:20px;
+}
+
+#searchresult_znmaindiv #searchpointdiv
+{
+	line-height:25px;
+}
+
+#thesaurusfl dt span
+{
+	font-size:12px;
+	font-weight:normal;
+}
+
+#searchresult .right
+{
+	float:right;
+	width:21%;
+	padding-left:3px;
+}
+
+.searchfacet
+{
+	margin-top:5px;
+	/*border:1px solid #8fc4ee;*/
+	/*border:2px solid #e0f0fd;*/
+	/*border:1px solid #4CA9D7;*/
+	border: #ddd 1px solid;
+}
+
+.searchfacet dt
+{
+	padding-right: 4px; padding-left: 10px; font-weight: bold; font-size: 13px; background: #d4eeff; padding-bottom: 3px; margin: 0px; color: #333; line-height: 20px; padding-top: 5px; position: relative; height: 20px;border-bottom:1px solid #ddd;
+}
+
+.searchfacet dd
+{
+	margin:0px;
+	padding:0px;
+	padding-left:10px;
+	padding-top:5px;
+}
+
+.searchfacet dd dl
+{
+	margin-bottom:10px;
+}
+
+.searchfacet dd dl dt
+{
+	font-weight: normal; 
+	font-size: 12px;
+	line-height: 18px;
+	padding:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background:#ffffff;
+	height:18px;
+	border:0px;
+}
+
+.searchfacet dd dl dd
+{
+	margin:0px;
+	padding:0px;
+}
+
+.searchfacet dd dl dd li
+{
+	margin-top:0px;
+	margin-left:0px;
+	line-height:18px;
+	list-style-type:none;
+}
+
+#searchresult .left
+{
+	float:left;
+	/*width:740px!important;
+	width:740px;*/
+	width:78%;
+}
+
+#searchresult .pd
+{
+	margin-top:5px;
+	margin-bottom:5px;
+	height:30px;
+}
+
+#searchresult .item
+{
+	border-bottom:1px solid #e4e4e4;
+}
+
+#searchresult .item .title
+{
+	color:#000000;
+	font-size:13px;
+}
+
+#searchresult .item .title a
+{
+	color:#336699;
+	font-size:13px;
+}
+
+#searchresult .item .title a:hover
+{
+	background: #003399; 
+	color: #ffffff;
+	text-decoration:none;
+	font-size:13px;
+}
+
+
+#searchresult .item dl
+{
+		margin-bottom:10px;
+		margin-top:10px;
+}
+
+#searchresult .item dt
+{
+	margin-left:5px;
+}
+
+#searchresult .item dd
+{
+	margin-left:25px;
+	margin-top:10px;
+	
+}
+
+#searchresult .item dd .left
+{
+	float:left;
+	color:#666;
+}
+
+#searchresult .item dd .right
+{
+	float:right;
+	_width:100px;
+	margin-top:-10px;
+}
+
+#bol_c_searchparam
+{
+	border:1px solid #8fc4ee;
+	padding-left:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:600px;
+	background-color:#dff3fe;
+	margin-left:-5px;
+}
+
+#bol_c_searchparam .button
+{
+	width:80px;
+	/*height:25px;*/
+	margin-left:20px;
+}
+
+#bol_c_sp_note
+{
+	margin-left:20px;
+	margin-top:15px;
+}
+
+#bol_c_orderlist
+{
+	margin-left:-5px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#bol_c_orderlist table td.detailclassname
+{
+	padding-left:40px;
+}
+#bol_c_orderlist table tr.alter
+{
+	background-color:#fdfdf2;
+}
+
+#bol_c_orderlist table td.notd
+{
+	border:0px solid #ffffff;
+	background-color:#ffffff;
+}
+
+#bol_c_orderlist table tr a
+{
+	text-decoration:underline;
+}
+
+#bodldiv
+{
+	margin-top:15px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+#bodldiv .notfound h1
+{
+	
+}
+
+#bodldiv .ctrl
+{
+	font-size:12px;
+	margin-left:20px;
+}
+
+#bodldiv .ctrl a
+{
+	text-decoration:underline;
+}
+
+#bodl_note
+{
+	margin-top:-5px;
+	margin-left:-5px;
+	line-height:20px;
+	border-bottom:1px solid #ddd;
+}
+
+#bodl_note li
+{
+	
+}
+
+#bodl_detail
+{
+	margin-top:5px;
+	margin-left:-10px;
+}
+
+#bodl_detail_head
+{
+	text-align:center;
+}
+
+#bodl_detail_head span
+{
+	line-height:25px;
+	margin-left:10px;
+	margin-right:10px;
+	color:#336600;
+}
+
+#bodl_detail_content
+{
+	margin-top:10px;
+	text-align: -moz-center !important;
+	text-align:center;
+}
+
+#bodl_detail_content_ctrl
+{
+	margin-top:10px;
+	text-align:center;
+}
+
+#bodl_detail_content_ctrl .button
+{
+	width:80px;
+	height:25px;
+	margin-left:20px;
+}
+
+.msgnote
+{ 
+	width:140px; 
+	position:absolute; 
+	margin-left:50px; 
+	margin-top:-75px;
+}
+.msgnote .bottom 
+{
+	background:url(../images/divbg.gif) no-repeat center; 
+	height:15px;
+}
+.msgnote .top 
+{
+	background:url(../images/divbgtop.gif) no-repeat center; 
+	height:10px; 
+	overflow:hidden;
+}
+.msgnote .body 
+{
+	border:1px solid #1C93FF; 
+	border-bottom:none; 
+	border-top:none; 
+	background-color:#ffffff; 
+	padding:0 5px; 
+	height:60px; 
+	line-height:20px; 
+	color:#000000; 
+}
+
+#bohdiv
+{
+	margin-top:15px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+#boh_detail_head
+{
+	margin-top:10px;
+}
+
+#boh_searchparam
+{
+	border:1px solid #8fc4ee;
+	padding-left:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:700px;
+	background-color:#dff3fe;
+	margin-left:-5px;
+}
+
+#boh_searchparam .button
+{
+	width:80px;
+	/*height:25px;*/
+	margin-left:20px;
+}
+
+#boh_detail_head .num
+{
+	color:#ff0000;
+}
+
+#boh_detail_content
+{
+	margin-top:10px;
+	margin-left:-5px;
+}
+
+.tb .title
+{
+	color:#000000;
+	font-size:13px;
+}
+
+.tb .title a
+{
+	color:#336699;
+	font-size:13px;
+}
+
+.tb .title a:hover
+{
+	background: #003399; 
+	color: #ffffff;
+	text-decoration:none;
+	font-size:13px;
+}
+
+/*---------------------分类列表---------------------*/
+#LRContent
+{
+	margin:0px;
+	padding:10px 0px 10px 0px;
+	width:100%;
+}
+
+#LRContent #LeftTree
+{
+	float:left;
+	width:27%;
+	border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+	padding:10px;
+	margin-left:10px;
+	display:inline;
+}
+
+#LRContent #LeftTree .BookClassInfo1
+{
+	height:auto!important;
+	height:16px;	
+	line-height:16px;
+}
+
+#LRContent #LeftTree .searchInput
+{
+	padding:3px
+}
+
+#LRContent #LeftTree .BookClassInfo1 .treeImg
+{
+	height:16px;
+	border:0;
+	cursor:pointer;
+}
+
+#LRContent #LeftTree .BookClassInfo1 .treeSpan
+{
+	cursor:pointer;
+}
+
+#LRContent #LeftTree .BookClassInfo1 .searchBtn
+{
+	
+}
+
+input.treeText
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+}
+
+input.searchBtn
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:Gray;
+}
+
+input.proflist
+{
+	border-style:solid;
+	border-width: 1px;
+	background-color:#d4eeff;
+	border-color:#DDDDDD;
+}
+
+#LRContent #RightBooks
+{
+	float:left;
+	width:67%!important;
+	min-width:65%;width:auto;
+	padding-left:5px;
+	padding-right:5px;
+	display:inline;	
+}
+/*---------------------分类列表---------------------*/
+
+
+.frameNewBook
+{
+	width:100%;
+}
+
+.nb_record
+{
+	text-align:left;
+}
+
+.nb_record .nb_no
+{
+	
+	width:30px;
+}
+
+.nb_record .nb_title
+{
+	width:300px;
+}
+
+#xstbbookdiv
+{
+	padding-left:5px;
+	text-align:left;
+	margin-top:10px;
+	margin-bottom:5px;
+	width:85%;
+	_width:100%;
+}
+
+*+html #xstbbookdiv
+{
+	float:left;
+}
+
+#xstbbookdiv #addXstbMessageDiv .act
+{
+    margin-left: 4px;
+    margin-right: 4px;
+    border-left: 1px solid #ccd;
+    border-top: 1px solid #ccd;
+    border-right: 1px solid #007ab7;
+    border-bottom: 1px solid #007ab7;
+    padding: 4px 8px 2px 8px;
+    background-color: #f3fafe;
+}
+
+#xstbbookdiv #addXstbMessageDiv .act:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007ab7;
+}
+
+/*图书分类浏览*/
+#clsbookdiv
+{
+	padding-left:5px;
+	text-align:left;
+	margin-top:10px;
+	margin-bottom:5px;
+	width:95%;
+	_width:100%;
+}
+
+*+html #clsbookdiv
+{
+	float:left;
+}
+
+.addclsMessageDiv .act
+{
+    margin-left: 4px;
+    margin-right: 4px;
+    border-left: 1px solid #ccd;
+    border-top: 1px solid #ccd;
+    border-right: 1px solid #007ab7;
+    border-bottom: 1px solid #007ab7;
+    padding: 4px 8px 2px 8px;
+    background-color: #f3fafe;
+}
+
+.addclsMessageDiv .act:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007ab7;
+}
+/*图书分类浏览*/
+
+
+#bookinfomain
+{
+	padding-left:10px;
+	padding-right:10px;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+
+#bookinfocarddiv
+{
+	width:78%;
+}
+
+#bookinfocarddiv .head
+{
+	height:35px;
+}
+
+#bookinfocarddiv .head .headleft
+{
+	float:left;
+	background:url('../images/CardLeft1.gif') no-repeat 0px -5px;
+	width:40px;
+	height:35px;
+}
+
+#bookinfocarddiv .head .headmiddle
+{
+	float:left;
+	background-color:#dff3fe;
+	min-width:140px;width:auto;
+	_width:140px;
+	_white-space: nowrap;
+	height:35px;
+	text-align:center;
+	line-height:35px;
+}
+
+#bookinfocarddiv .head .headmiddle span
+{
+	padding-left:0px;
+}
+
+#bookinfocarddiv .head .headright
+{
+	float:left;
+	background:url('../images/CardRight1.gif') no-repeat 0px 0px;
+	width:40px;
+	height:35px;
+}
+
+#bookinfocarddiv .head .headactinfo
+{
+	float:right;
+	height:35px;
+	line-height:35px;
+	padding-right:10px;
+}
+
+#bookinfocarddiv .head .headactinfo .act
+{
+    margin-left: 4px;
+    margin-right: 4px;
+    border-left: 1px solid #ccd;
+    border-top: 1px solid #ccd;
+    border-right: 1px solid #007ab7;
+    border-bottom: 1px solid #007ab7;
+    padding: 4px 8px 2px 8px;
+    background-color: #f3fafe;
+}
+#bookinfocarddiv .head .headactinfo .act:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007ab7;
+}
+
+#bookinfocarddiv .body
+{
+	padding:5px;
+	background-color:#dff3fe;
+	line-height:18px;
+}
+
+#bookinfocarddiv .body hr
+{
+	border:0px;
+	border-bottom:1px solid;
+}
+
+#erdiv li
+{
+	margin-top:0px;
+	margin-left:0px;
+	list-style-type:none;
+}
+
+#bardiv table
+{
+	margin-top:3px;
+}
+
+#bardiv .tbhead
+{
+	text-align:center;
+
+}
+
+#bardiv tbody
+{
+	background-color:#ffffff;
+}
+
+#bardiv a.showyygz
+{
+	text-decoration:underline;
+}
+
+
+#libinfodiv
+{
+	margin-top:20px;
+	text-align:left;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#libinfodiv h5
+{
+	color:#038803;
+	padding-bottom:3px;
+	border-bottom:1px solid;
+}
+
+#libinfodiv p .lh
+{
+	font-weight:bold;
+}
+
+#libinfodiv p span
+{
+	line-height:18px;
+}
+
+#libinfodiv p a
+{
+	text-decoration: underline;
+}
+
+.staticlink
+{
+	font: 12px Arial, Helvetica, sans-serif; 
+	color: #333; 
+	text-decoration:none;
+}
+
+#otherbookinfodiv
+{
+	width:20%;
+	margin-top:20px;
+}
+
+#otherbookinfodiv dl
+{
+	margin-top:15px;
+	border:1px solid #ddd;
+}
+
+#otherbookinfodiv dt
+{
+	padding-right: 4px; padding-left: 10px; font-weight: bold; font-size: 13px; background: #d4eeff; padding-bottom: 3px; margin: 0px; color: #333; line-height: 16px; padding-top: 5px; position: relative; height: 16px;border-bottom:1px solid #ddd;
+}
+
+#otherbookinfodiv dd
+{
+	margin:0 0 5px 0;
+	padding:0px;
+	padding-left:10px;
+	padding-top:5px;
+	line-height:18px;
+}
+
+#otherbookinfodiv dt img
+{
+	margin-right:5px;
+	margin-top:-2px;
+	cursor:pointer;
+}
+
+#otherbookinfodiv .pingfen
+{
+	margin-bottom:5px;
+	vertical-align:middle;
+	height:18px;
+	line-height:18px;
+}
+
+#otherbookinfodiv .pingfen img
+{
+	margin-right:-5px;
+	width:18px;
+	height:18px;
+}
+
+#otherbookinfodiv .ns img
+{
+	cursor:pointer;
+	margin-right:-5px;
+}
+
+#borrowerinfodiv
+{
+	margin-top:20px;
+	text-align:left;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#borrowerinfodiv .ddlstyle
+{
+	width:150px;
+}
+
+#borrowerinfodiv h5
+{
+	color:#038803;
+	padding-bottom:3px;
+	border-bottom:1px solid;
+}
+
+#borrowerinfodiv p .lh
+{
+	font-weight:bold;
+}
+
+#borrowerinfodiv p span
+{
+	line-height:18px;
+}
+
+#borrowerinfodiv p a
+{
+	text-decoration: underline;
+}
+
+#rbdd ul
+{
+		list-style-type:none;
+}
+
+#rbdd li
+{
+	margin-top:0px;
+	margin-left:0px;
+	line-height:18px;
+}
+
+#top100
+{
+	padding:20px 20px 20px 20px;
+}
+
+#top100link
+{
+	
+}
+
+#top100info
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+	padding:10px;
+}
+
+#top100 #top100Inner
+{
+	padding:5px;
+	width:95%;
+}	
+
+.frametop100
+{
+	width:100%;
+}
+
+h1.hotpagetitle
+{
+	font-size:14px;
+	padding-bottom:8px;
+	margin-bottom:15px;
+	padding-right: 4px; 
+	padding-left: 10px; 
+	color: #333; 
+	line-height: 16px; 
+	height: 16px;
+	border-bottom:1px solid #ddd;
+}
+h1.hotpagetitle span
+{
+	padding-left:5px;
+	font-size:13px;
+	font-weight:normal;
+}
+.hotpagecontent
+{
+	padding-left:15px;
+}
+
+#mcrankdiv .hotpagecontent .hotlinknow
+{
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#mcrankdiv .hotpagecontent .hotlinktoclick
+{
+	text-decoration:underline;
+	color:Black;
+}
+
+#mcrankdiv
+{
+	margin-top:15px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+#bookorderlistdiv
+{
+	margin-top:15px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+#mcrankresultdiv
+{
+	text-align:center;
+}
+
+#mcrankresultdiv .fleft
+{
+	float:left;	
+}
+
+/*--内登录--*/
+
+#ilogindiv
+{
+	margin:0px;
+	padding:0px;
+	text-align:left;
+	width:350px;
+	_width:100%;
+}
+
+*+html #ilogindiv
+{
+	float:left;
+}
+
+#ilogindiv .LoginDiv
+{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#ilogindiv .LoginDiv .LoginTitle
+{
+	font-size:15px;
+	font-weight:bold;
+	padding-bottom:10px;	
+	padding-top:10px;
+	padding-right:10px;
+	padding-left:10px;
+	border-bottom:1px solid #8fc4ee;
+}
+
+#ilogindiv .LoginDiv .LoginContent
+{
+	margin-top:10px;
+	padding-left:15px;
+}
+
+#ilogindiv .LoginDiv .errorInfo
+{
+	color:#ff0000;
+	margin-bottom:5px;
+}
+
+#ilogindiv .LoginDiv .loginInfo
+{
+	width:100%;
+	margin-bottom:15px;
+}
+
+#ilogindiv .LoginDiv .loginInfo .leftInfo
+{
+	width:30%;
+}
+
+#ilogindiv .LoginDiv .loginInfo .rightInfo
+{
+	width:60%;
+	margin-left:15px;
+}
+
+#ilogindiv .LoginDiv .txtInput
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:Gray;
+	width:150px;
+}
+
+#ilogindiv .LoginDiv .btn
+{
+	width:50px;
+	margin-right:20px;
+}
+
+#ilogindiv .LoginDiv .loginInfo .pwdObject
+{
+	display:inline-block;
+	margin-bottom:-5px;
+}
+
+/*-----------登录----------*/
+#Login
+{
+	border-style:solid;
+	border-width:0px;
+	border-color:#ddd;
+	margin:50px auto 10px 80px;
+	padding:10px;
+	background-color:#dff3fe;
+	border:1px solid #ddd;
+	width:640px;
+}
+
+#Login .LeftLogin
+{
+	float:left;
+	width:300px;
+	padding:5px 10px 10px 10px;
+}
+
+#Login .LeftLogin .LoginDiv
+{
+	float:left;
+	width:300px;
+}
+
+/*#Login .LeftLogin .LoginDiv .LoginTitle*/
+#Login .LoginTitle
+{
+	width:100%;
+	font-size:18px;
+	font-weight:bold;
+	padding-bottom:10px;	
+	padding-top:10px;
+	border-bottom:1px solid #8fc4ee;
+}
+
+#Login .LeftLogin .LoginDiv .loginContent
+{
+	margin-top:15px;
+	padding-left:20px;
+}
+
+#Login .LeftLogin .LoginDiv .loginInfo
+{
+	width:100%;
+	margin-bottom:15px;
+}
+
+#Login .LeftLogin .LoginDiv .loginInfo .leftInfo
+{
+	width:30%;
+}
+
+#Login .LeftLogin .LoginDiv .loginInfo .rightInfo
+{
+	width:60%;
+	margin-left:15px;
+}
+
+#Login .LeftLogin .LoginDiv .txtInput
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:Gray;
+	width:150px;
+}
+
+#Login .LeftLogin .LoginDiv .btn
+{
+	width:50px;
+	margin-right:20px;
+}
+
+#Login .RightDescription
+{
+	margin-top:20px;
+	background-color:#dff3fe;
+	line-height:28px;
+	width:40%;
+	border:1px solid #ddd;
+	padding:10px;
+	float:left;
+}
+
+#Login .LeftLogin .LoginDiv .loginInfo .pwdObject
+{
+	display:inline-block;
+	margin-bottom:-5px;
+}
+/*-----------登录----------*/
+
+/*-----------UserMaster----------*/
+#UserMaster
+{
+	min-height:450px;height:auto;
+	_height:450px;
+	/*width:780px;*/
+	min-width:780px;
+	width:100%;
+	_width:expression(document.body.clientWidth < 800? "780px": "auto");
+	float:left;
+}
+
+#UserMasterLeft
+{
+	min-width:160px;
+	width:160px;
+	float:left;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-color:#ddd;
+	height:100%;
+	background-color:#EBF5FB;
+}
+
+#UserMasterLeft .userinfo
+{
+	border-bottom:2px solid #ddd;
+	display:block;
+	/*color:#ffffff;*/
+	padding:15px 10px 0px 10px;
+	text-align:left;
+	font-size:14px;
+	font-weight:500;
+	height:32px;
+	_width:160px;
+}
+
+#UserMasterRight
+{
+	/*min-width:580px;
+	width:580px;
+	_width:expression(document.body.clientWidth < 800? "535px": "78%");*/
+	
+	width:76%;
+	_width:74%;
+	float:left;
+	padding:10px;
+}
+
+/*-----------UserMaster----------*/
+
+
+/*-----------用户页面menuCSS------------*/
+#userpagemenu
+{
+	width:150px !important;
+	width:160px;
+	line-height:30px;
+	/*background-color:#3a93dd;*/
+	/*background-color:#00A5EC;*/
+	/*background-color:#EBF5FB;*/
+	text-align:left;
+	padding-left:10px;
+	padding-right:10px;
+	font-size:13px;
+	height:100%;
+}
+
+#userpagemenu li
+{
+	/*display:inline;*/
+	border-bottom:1px solid #ddd;
+	height:32px;
+	padding-bottom:1px;
+}
+
+#userpagemenu li :hover
+{
+	/*background-color:#007ab7;*/
+	border:1px solid #336699;
+}
+
+#userpagemenu a
+{
+	display:block;
+	/*color:#ffffff;*/
+	padding:0px 10px 0px 10px;
+}
+
+#userpagemenu a:hover
+{
+	display:block;
+	color:#e66b10;
+	text-decoration:none;
+}
+
+#userpagemenu a.select
+{
+	display:block;
+	color:#e66b10;
+	padding:0px 10px 0px 10px;
+}
+/*-----------用户页面menuCSS------------*/
+
+h1.userpagetitle
+{
+	font-size:14px;
+	padding-bottom:12px;
+	margin-bottom:15px;
+	color: #038803;
+	padding-right: 4px; 
+	padding-left: 10px; 
+	color: #333; 
+	line-height: 16px; 
+	height: 16px;
+	border-bottom:1px solid #ddd;
+}
+
+.userpagecontent
+{
+	padding-left:15px;
+}
+
+/*-----------user/changepas.aspx------------*/
+#changepassword
+{
+	width:100%;
+	margin-left:5px;
+}
+
+#changepassword #changepasdescript
+{
+	line-height:28px;
+	width:600px;
+}
+
+#changepassword #changepasfirst
+{
+	margin-left:50px;
+}
+
+#changepassword .infoline
+{
+	text-align:left;
+	width:60%;
+	margin-bottom:20px;
+}
+
+#changepassword .infoline .infoleft
+{
+
+	width:30%;
+}
+
+#changepassword .infoline .inforight
+{
+	width:65%;
+	margin-left:15px;
+}
+
+#changepassword .txtInput
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:Gray;
+}
+/*-----------user/changepas.aspx------------*/
+
+
+/*-----------user/changepassuccess.aspx------------*/
+#modifySuccess 
+{
+	margin-top:20px;
+	margin-left:5px;
+}
+
+#modifySuccess .modifyMsg
+{
+	font-size:14px;
+}
+/*-----------user/changepassuccess.aspx------------*/
+
+
+/*-----------user/userinfo.aspx------------*/
+#userInfoContent
+{
+	margin-left:10px;
+}
+
+#userInfoContent .infoline
+{
+	text-align:left;
+	margin-bottom:20px;
+	margin-left:60px;
+	
+}
+
+#userInfoContent .infoline .infoleft
+{
+	width:30%;
+}
+
+#userInfoContent .infoline .inforight
+{
+	width:60%;
+	margin-left:15px;
+}
+
+#userInfoContent .txtInput
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:Gray;
+	width:150px;
+}
+/*-----------user/userinfo.aspx------------*/
+#cls_tree
+{
+	text-align:left;
+	float:left;
+}
+
+#cls_ydz
+{
+	/*min-height:500px;height:auto;
+	_height:500px;
+	display:block;
+	visibility:hidden;*/
+	float:left;
+	text-align:left;
+}
+
+.cls_ydzcontent
+{
+	margin-bottom:35px;
+	margin-left:10px;
+}
+
+.cls_ydzcontent .cls_ydztitle
+{
+	
+	font-size:13px;
+	font-weight:bold;
+}
+
+/*-----------期刊------------*/
+#qkcontent
+{
+	margin:0px;
+	padding:10px 0px 10px 0px;
+	width:100%;
+}
+
+#qkcontent #qkcategorylist
+{
+	/*border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+	display:inline;*/
+	padding:10px;
+	margin-left:10px;
+}
+
+#qkcontent #qkinfolist
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+	width:95%;
+	padding:10px 0px 10px 10px;
+	margin:0px 0px 0px 20px;
+}
+
+#qkcontent #qkinfolist .treeText
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+}
+
+#qkcontent #qkinfolist .searchBtn
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:Gray;
+}
+
+#qkcontent #qkcategorylist .categorylink
+{
+	text-decoration:underline;
+}
+
+#qkcontent #qkcategorylist .categorynow
+{
+	color:Black;
+}
+
+h1.qkdgtitle
+{
+	font-size:14px;
+	padding-bottom:12px;
+	margin-bottom:15px;
+	margin-right:10px;
+	color: #038803;
+	padding-right: 4px; 
+	color: #333; 
+	line-height: 16px; 
+	height: 16px;
+	border-bottom:1px solid #ddd;
+}
+
+#qkcontent #qkinfolist #lefttree
+{
+	float:left;
+	width:27%;
+	border-right-style:solid;
+	border-right-width: 1px;
+	border-right-color:#ddd;
+	display:inline;
+}
+
+#qkcontent #qkinfolist #lefttree .BookClassInfo1
+{
+	height:auto!important;
+	height:16px;	
+	line-height:16px;
+}
+
+#qkcontent #qkinfolist #lefttree .searchInput
+{
+	padding:3px
+}
+
+#qkcontent #qkinfolist #lefttree .BookClassInfo1 .treeImg
+{
+	height:16px;
+	border:0;
+	cursor:pointer;
+}
+
+#qkcontent #qkinfolist #lefttree .BookClassInfo1 .treeSpan
+{
+	cursor:pointer;
+}
+
+#qkcontent #qkinfolist #rightbooks
+{
+	float:left;
+	width:70%!important;
+	min-width:68%;width:auto;
+	padding-left:5px;
+	padding-right:5px;
+	display:inline;	
+}
+
+#qkdgbookdiv
+{
+	padding-left:5px;
+	text-align:left;
+	margin-top:10px;
+	margin-bottom:5px;
+	width:95%;
+	_width:100%;
+}
+
+*+html #qkdgbookdiv
+{
+	float:left;
+}
+
+.addqkdgMessageDiv .act
+{
+    margin-left: 4px;
+    margin-right: 4px;
+    border-left: 1px solid #ccd;
+    border-top: 1px solid #ccd;
+    border-right: 1px solid #007ab7;
+    border-bottom: 1px solid #007ab7;
+    padding: 4px 8px 2px 8px;
+    background-color: #f3fafe;
+}
+
+.addqkdgMessageDiv .act:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007ab7;
+}
+/*-----------期刊------------*/
+
+
+/*-----------报纸------------*/
+#bzcontent
+{
+	margin:0px;
+	padding:10px 0px 10px 0px;
+	width:100%;
+}
+
+#bzcontent #bzcategorylist
+{
+	/*border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+	display:inline;*/
+	padding:10px;
+	margin-left:10px;
+}
+
+#bzcontent #bzinfolist
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+	width:95%;
+	padding:10px 0px 10px 10px;
+	margin:0px 0px 0px 20px;
+}
+
+#bzcontent #bzinfolist .treeText
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+}
+
+#bzcontent #bzinfolist .searchBtn
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:Gray;
+}
+
+#bzcontent #bzcategorylist .categorylink
+{
+	text-decoration:underline;
+}
+
+#bzcontent #bzcategorylist .categorynow
+{
+	color:Black;
+}
+
+h1.bzdgtitle
+{
+	font-size:14px;
+	padding-bottom:12px;
+	margin-bottom:15px;
+	margin-right:10px;
+	color: #038803;
+	padding-right: 4px; 
+	color: #333; 
+	line-height: 16px; 
+	height: 16px;
+	border-bottom:1px solid #ddd;
+}
+
+#bzcontent #bzinfolist #lefttree
+{
+	float:left;
+	width:27%;
+	border-right-style:solid;
+	border-right-width: 1px;
+	border-right-color:#ddd;
+	display:inline;
+}
+
+#bzcontent #bzinfolist #lefttree .BookClassInfo1
+{
+	height:auto!important;
+	height:16px;	
+	line-height:16px;
+}
+
+#bzcontent #bzinfolist #lefttree .searchInput
+{
+	padding:3px
+}
+
+#bzcontent #bzinfolist #lefttree .BookClassInfo1 .treeImg
+{
+	height:16px;
+	border:0;
+	cursor:pointer;
+}
+
+#bzcontent #bzinfolist #lefttree .BookClassInfo1 .treeSpan
+{
+	cursor:pointer;
+}
+
+#bzcontent #bzinfolist #rightbooks
+{
+	float:left;
+	width:70%!important;
+	min-width:68%;width:auto;
+	padding-left:5px;
+	padding-right:5px;
+	display:inline;	
+}
+
+#bzdgbookdiv
+{
+	padding-left:5px;
+	text-align:left;
+	margin-top:10px;
+	margin-bottom:5px;
+	width:95%;
+	_width:100%;
+}
+
+*+html #bzdgbookdiv
+{
+	float:left;
+}
+/*-----------报纸------------*/
+
+
+/*-----------非书资料------------*/
+#fszlcontent
+{
+	margin:0px;
+	padding:10px 0px 10px 0px;
+	width:100%;
+}
+
+#fszlcontent #fszlcategorylist
+{
+	/*border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+	display:inline;*/
+	padding:10px;
+	margin-left:10px;
+}
+
+#fszlcontent #fszlinfolist
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+	width:95%;
+	padding:10px 0px 10px 10px;
+	margin:0px 0px 0px 20px;
+}
+
+#fszlcontent #fszlinfolist .treeText
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+}
+
+#fszlcontent #fszlinfolist .searchBtn
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:Gray;
+}
+
+#fszlcontent #fszlcategorylist .categorylink
+{
+	text-decoration:underline;
+}
+
+#fszlcontent #fszlcategorylist .categorynow
+{
+	color:Black;
+}
+
+h1.fszltitle
+{
+	font-size:14px;
+	padding-bottom:12px;
+	margin-bottom:15px;
+	margin-right:10px;
+	color: #038803;
+	padding-right: 4px; 
+	color: #333; 
+	line-height: 16px; 
+	height: 16px;
+	border-bottom:1px solid #ddd;
+}
+
+#fszlcontent #fszlinfolist #lefttree
+{
+	float:left;
+	width:27%;
+	border-right-style:solid;
+	border-right-width: 1px;
+	border-right-color:#ddd;
+	display:inline;
+}
+
+#fszlcontent #fszlinfolist #lefttree .BookClassInfo1
+{
+	height:auto!important;
+	height:16px;	
+	line-height:16px;
+}
+
+#fszlcontent #fszlinfolist #lefttree .searchInput
+{
+	padding:3px
+}
+
+#fszlcontent #fszlinfolist #lefttree .BookClassInfo1 .treeImg
+{
+	height:16px;
+	border:0;
+	cursor:pointer;
+}
+
+#fszlcontent #fszlinfolist #lefttree .BookClassInfo1 .treeSpan
+{
+	cursor:pointer;
+}
+
+#fszlcontent #fszlinfolist #rightbooks
+{
+	float:left;
+	width:70%!important;
+	min-width:68%;width:auto;
+	padding-left:5px;
+	padding-right:5px;
+	display:inline;	
+}
+
+#fszlbookdiv
+{
+	padding-left:5px;
+	text-align:left;
+	margin-top:10px;
+	margin-bottom:5px;
+	width:95%;
+	_width:100%;
+}
+
+*+html #fszlbookdiv
+{
+	float:left;
+}
+/*-----------非书资料------------*/
+
+
+/*-----------附书光盘------------*/
+#fsgpcontent
+{
+	margin:0px;
+	padding:10px 0px 10px 0px;
+	width:100%;
+}
+
+#fsgpcontent #fsgpcategorylist
+{
+	/*border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+	display:inline;*/
+	padding:10px;
+	margin-left:10px;
+}
+
+#fsgpcontent #fsgpinfolist
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+	width:95%;
+	padding:10px 0px 10px 10px;
+	margin:0px 0px 0px 20px;
+}
+
+#fsgpcontent #fsgpinfolist .treeText
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+}
+
+#fsgpcontent #fsgpinfolist .searchBtn
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:Gray;
+}
+
+#fsgpcontent #fsgpcategorylist .categorylink
+{
+	text-decoration:underline;
+}
+
+#fsgpcontent #fsgpcategorylist .categorynow
+{
+	color:Black;
+}
+
+h1.fsgptitle
+{
+	font-size:14px;
+	padding-bottom:12px;
+	margin-bottom:15px;
+	margin-right:10px;
+	color: #038803;
+	padding-right: 4px; 
+	color: #333; 
+	line-height: 16px; 
+	height: 16px;
+	border-bottom:1px solid #ddd;
+}
+
+#fsgpcontent #fsgpinfolist #lefttree
+{
+	float:left;
+	width:27%;
+	border-right-style:solid;
+	border-right-width: 1px;
+	border-right-color:#ddd;
+	display:inline;
+}
+
+#fsgpcontent #fsgpinfolist #lefttree .BookClassInfo1
+{
+	height:auto!important;
+	height:16px;	
+	line-height:16px;
+}
+
+#fsgpcontent #fsgpinfolist #lefttree .searchInput
+{
+	padding:3px
+}
+
+#fsgpcontent #fsgpinfolist #lefttree .BookClassInfo1 .treeImg
+{
+	height:16px;
+	border:0;
+	cursor:pointer;
+}
+
+#fsgpcontent #fsgpinfolist #lefttree .BookClassInfo1 .treeSpan
+{
+	cursor:pointer;
+}
+
+#fsgpcontent #fsgpinfolist #rightbooks
+{
+	float:left;
+	width:70%!important;
+	min-width:68%;width:auto;
+	padding-left:5px;
+	padding-right:5px;
+	display:inline;	
+}
+
+#fsgpbookdiv
+{
+	padding-left:5px;
+	text-align:left;
+	margin-top:10px;
+	margin-bottom:5px;
+	width:95%;
+	_width:100%;
+}
+
+*+html #fsgpbookdiv
+{
+	float:left;
+}
+/*-----------附书光盘------------*/
+
+
+/*-----------无效邮件------------*/
+#imcontent
+{
+	margin:0px;
+	padding:10px 0px 10px 0px;
+	width:100%;
+}
+
+#imcontent #iminfolist
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+	width:95%;
+	padding:10px 0px 10px 10px;
+	margin:0px 0px 0px 20px;
+}
+
+#imcontent #iminfolist .searchBtn
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:Gray;
+}
+
+#imcontent #iminfolist .treeText
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+}
+
+h1.imtitle
+{
+	font-size:14px;
+	padding-bottom:12px;
+	margin-bottom:15px;
+	margin-right:10px;
+	color: #038803;
+	padding-right: 4px; 
+	color: #333; 
+	line-height: 16px; 
+	height: 16px;
+	border-bottom:1px solid #ddd;
+}
+
+#imbookdiv
+{
+	padding-left:5px;
+	text-align:left;
+	margin-top:10px;
+	margin-bottom:5px;
+	width:80%;
+	_width:100%;
+}
+
+*+html #imbookdiv
+{
+	float:left;
+}
+/*-----------无效邮件------------*/
+
+
+/*-----------图书续借------------*/
+#borrowedcontent
+{
+	width:700px;
+}
+#borrowrule
+{
+	border-bottom:1px solid #ddd;
+}
+#borrowedcontent .link
+{
+	text-decoration:underline;
+}
+/*-----------图书续借------------*/
+
+
+/*-----------图书分类定制------------*/
+.clscategory
+{
+	margin-top:30px;
+	margin-left:10px;
+	font-size:13px;
+}
+
+.clscategory .infoline
+{
+	text-align:left;
+	margin-bottom:20px;
+	margin-left:60px;
+}
+
+/*-----------图书分类定制------------*/
+
+
+/*-----------Admin 系统参数设置------------*/
+
+.admenu
+{
+	background-color:#EBF5FB;
+	height:500px;
+	min-height:500px;
+}
+
+.adcontent
+{
+	width:820px;
+}
+
+#adminsysparm
+{
+	width:90%;
+	margin-left:30px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#sysparminfo
+{
+	width:60%;
+	margin-left:100px;
+	margin-top:20px;
+	margin-bottom:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#ddd;
+	padding:20px;
+}
+#sysparminfo .sysparminfotitle
+{
+	font-size:12px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+#sysparminfo .sysparminfocontent
+{
+	margin-bottom:10px;
+	margin-top:10px;
+}
+#sysparminfo .sysparminfocontent .txtparaminfo
+{
+	width:80%;
+	height:50px;
+	
+}
+/*-----------Admin 系统参数设置------------*/
+
+
+/*-----------Admin 修改密码------------*/
+#adminchagepas
+{
+	width:60%;
+	margin-left:30px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+/*-----------Admin 修改密码------------*/
+
+
+/*---------------------分类列表_blank(定制部分)---------------------*/
+#LRContent_blank
+{
+	margin:0px;
+	padding:10px 0px 10px 0px;
+	width:100%;
+	
+}
+
+#LRContent_blank #LeftTree
+{
+	
+	float:left;
+	width:33%;
+	border-style:solid;
+	border-width: 1px;
+	border-color:#ddd;
+	padding:10px;
+	margin-left:10px;
+	display:inline;
+}
+
+#LRContent_blank #LeftTree .BookClassInfo1
+{
+	height:auto!important;
+	height:16px;	
+	line-height:16px;
+}
+
+#LRContent_blank #LeftTree .searchInput
+{
+	padding:3px
+}
+
+#LRContent_blank #LeftTree .BookClassInfo1 .treeImg
+{
+	height:16px;
+	border:0;
+	cursor:pointer;
+}
+
+#LRContent_blank #LeftTree .BookClassInfo1 .treeSpan
+{
+	
+}
+
+#LRContent_blank #LeftTree .searchBtn1
+{
+	
+}
+
+#LRContent_blank #RightBooks
+{
+	float:left;
+	width:62%!important;
+	min-width:60%;width:auto;
+	/*padding-left:5px;
+	padding-right:5px;*/
+}
+
+#LRContent_blank #RightBooks #clsBrowse_book
+{
+	width:100%;
+}
+
+#dzbookcontent
+{
+	padding-top:10px;
+	margin-left:30px;
+	text-align:left;
+	padding-left:5px;
+	margin-bottom:5px;
+}
+/*---------------------分类列表_blank(定制部分)---------------------*/
+
+
+/*---------------------表单荐购---------------------*/
+.readerrecommenddiv
+{
+	margin-top:15px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.readerrecommenddiv .recommendtitle
+{
+	padding-left:15px;
+}
+
+.readerrecommenddiv .recommendcontent
+{
+	padding-left:15px;
+	width:700px;
+}
+
+.readerrecommenddiv .recommendresult
+{
+	margin-left:30px;
+	width:800px;
+	float:left;
+}
+
+.readerrecommenddiv .recommendcontent .infoline2in1
+{
+	/*float:left;*/
+	padding-top:5px;
+}
+
+.readerrecommenddiv .recommendcontent .infoline2in1 .txtparaminfo
+{
+	/*float:left;*/
+	width:300px;	
+	height:50px;
+}
+
+.readerrecommenddiv .recommendcontent .infoline
+{
+	float:left;
+	width:310px
+}
+
+.readerrecommenddiv .recommendcontent .infoline .leftinfo
+{
+	float:left;
+	text-align:right;
+	width:100px;
+	padding-right:10px;
+}
+
+.readerrecommenddiv .recommendcontent .infoline .rightinfo
+{
+	float:left;
+	width:200px;
+}
+
+.readerrecommenddiv .recommendcontent .infoline3
+{
+	float:left;
+	
+}
+
+.readerrecommenddiv .recommendcontent .infoline3 .leftinfo
+{
+	float:left;
+	text-align:right;
+	width:100px;
+	padding-right:10px;
+}
+
+.readerrecommenddiv .recommendcontent .infoline3 .rightinfo
+{
+	float:left;
+	width:200px;
+}
+/*---------------------表单荐购---------------------*/
+
+
+/*---------------------我的表单荐购---------------------*/
+.myrecommenddiv
+{
+	padding:30px;
+	text-align:left;
+	float:left;
+}
+.myrecommenddiv .recommendinfo
+{
+	float:left;
+	width:500px;
+	line-height:25px;
+}
+.myrecommenddiv .recommendinfo .leftinfo
+{
+	float:left;
+	text-align:right;
+	width:80px;
+}
+.myrecommenddiv .recommendinfo .rightinfo
+{
+	float:left;
+	width:380px;
+	padding-left:30px;
+}
+
+.myrecommenddiv h5
+{
+	color:#038803;
+	padding-bottom:3px;
+	border-bottom:1px solid;
+}
+/*---------------------我的表单荐购---------------------*/
+
+/*---------------------表单荐购管理---------------------*/
+.recommendwebcf
+{
+	text-align:left;
+	float:left;
+}
+
+.recommendwebcf #resultdiv
+{
+	float:left;
+}
+
+.recommendwebcf .recommendinfo
+{
+	float:left;
+	width:640px;
+	line-height:28px;
+}
+
+.recommendwebcf .recommendinfo .leftinfo
+{
+	float:left;
+	text-align:right;
+	width:120px;
+}
+.recommendwebcf .recommendinfo .rightinfo
+{
+	float:left;
+	width:380px;
+	padding-left:30px;
+}
+
+.recommendwebcf .recommendinfo .txtreplays
+{
+	float:left;
+	width:80%;
+	height:50px;
+}
+
+.infoline4print
+{
+	float:left;
+	width:640px;
+	padding:5px;
+}
+
+.infoline4print .infofront
+{
+	margin:20px;
+	font-weight:bold;
+	font-size:x-large;
+}
+
+.infoline4print .infofont
+{
+	font-weight:bold;
+}
+
+.infoline4print .infocontentfont
+{
+	
+}
+
+.infoline4print .numberinfo
+{
+	float:left;
+	width:80px;
+	text-align:left;
+}
+
+.infoline4print .titleinfo
+{
+	float:left;
+	width:250px;
+	text-align:left;
+}
+
+.infoline4print .authorinfo
+{
+	float:left;
+	width:150px;
+	text-align:left;
+}
+
+.infoline4print .dbtypeinfo
+{
+	float:left;
+	width:50px;
+	text-align:left;
+}
+
+.infoline4print .lantypeinfo
+{
+	float:left;
+	width:50px;
+	text-align:left;
+}
+
+.infoline4print .publisherinfo
+{
+	margin-left:80px;
+	float:left;
+	width:250px;
+	text-align:left;
+}
+
+.infoline4print .publishdateinfo
+{
+	float:left;
+	width:250px;
+	text-align:left;
+}
+
+.infoline4print .isbninfo
+{
+	margin-left:80px;
+	float:left;
+	width:250px;
+	text-align:left;
+}
+
+.infoline4print .issninfo
+{
+	float:left;
+	width:250px;
+	text-align:left;
+}
+
+.infoline4print .readerinfo
+{
+	margin-left:80px;
+	float:left;
+	width:250px;
+	text-align:left;
+}
+
+.infoline4print .statusinfo
+{
+	float:left;
+	width:250px;
+	text-align:left;
+}
+
+.infoline4print .reasonsinfo
+{
+	margin-left:80px;
+	float:left;
+	width:550px;
+	text-align:left;
+}
+
+.infoline4print .notesinfo
+{
+	margin-left:80px;
+	float:left;
+	width:550px;
+	text-align:left;
+}
+
+.recommend4print
+{
+	float:left;
+}
+
+.printbtndiv
+{
+	margin-left:80px;
+	margin-top:30px;
+	margin-bottom:30px;
+	text-align:left;
+}
+
+.ddlreplycontent
+{
+	width:400px;
+}
+/*---------------------表单荐购管理---------------------*/
+
+
+/*---------------------专家荐购管理---------------------*/
+#prorecommenddiv
+{
+	float:left;
+	width:930px;
+	/*background-color:Fuchsia;*/
+	line-height:25px;
+	margin-left:30px;
+}
+
+#prorecommenddiv #professordb
+{
+	width:430px;
+	float:left;
+	padding:10px;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#ddd;
+	margin-top:10px;
+	/*background-color:Lime;*/
+}
+
+#prorecommenddiv #readerdb
+{
+	width:440px;
+	float:left;
+	padding:10px;	
+	margin-top:10px;
+/*background-color:Maroon;	*/
+}
+/*---------------------专家荐购管理---------------------*/
+
+
+/*---------------------专家推荐(书目详细信息部分)---------------------*/
+#profrecommenddiv
+{
+	margin-top:20px;
+	text-align:left;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#profrecommenddiv h5
+{
+	color:#038803;
+	padding-bottom:3px;
+	border-bottom:1px solid;
+}
+
+#profrecommenddiv .recommendwebcf
+{
+	text-align:left;
+	float:left;
+}
+
+#profrecommenddiv .recommendwebcf #resultdiv
+{
+	float:left;
+}
+
+#profrecommenddiv .recommendwebcf .recommendinfo
+{
+	float:left;
+	width:500px;
+	line-height:28px;
+}
+
+#profrecommenddiv .recommendwebcf .recommendinfo .leftinfo
+{
+	float:left;
+	text-align:right;
+	width:100px;
+}
+
+#profrecommenddiv .recommendwebcf .recommendinfo .rightinfo
+{
+	float:left;
+	width:350px;
+	padding-left:30px;
+}
+
+#profrecommenddiv .recommendwebcf .recommendinfo .txtinput
+{
+	float:left;
+	width:80%;
+	height:50px;
+}
+/*---------------------专家推荐(书目详细信息部分)---------------------*/
+
+
+/*---------------------专家推荐(读书指引栏目)---------------------*/
+#profrecomrank
+{
+	margin-top:15px;
+	margin-left:10px;
+	margin-right:10px;
+}
+/*---------------------专家推荐(读书指引栏目)---------------------*/
+
+
+/*---------------------预约结果(弹出页)---------------------*/
+#yyresultdiv
+{
+	margin-top:10px;
+	text-align:left;
+	margin-left:10px;
+	margin-right:10px;
+	line-height:25px;
+}
+
+#yyresultdiv h5
+{
+	color:#038803;
+	padding-bottom:3px;
+	border-bottom:1px solid;
+}
+
+#yyresultdiv .resultcontent
+{
+	margin:10px;
+}
+/*---------------------预约结果(弹出页)---------------------*/
+
+
+/*---------------------iframe登录页面(横向)---------------------*/
+.LoginDiv_p
+{
+	
+}
+
+.LoginDiv_p .loginInfo_p
+{
+	float:left;
+	margin-left:10px;
+}
+
+/*---------------------iframe登录页面(横向)---------------------*/

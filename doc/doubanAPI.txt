@@ -1,0 +1,26 @@
+搜索书籍、电影、音乐
+
+GET http://api.douban.com/book/subjects
+GET http://api.douban.com/movie/subjects
+GET http://api.douban.com/music/subjects
+请求参数
+
+参数	意义	备注
+q	全文检索的关键词	
+tag	搜索特定tag	
+start-index	起始元素 从1开始
+max-results	返回结果的数量	最大为50
+ 
+ 备注：实际上在没有使用API Key的情况下，没有觉得每分钟不超过10次这个规则有严格执行，但是的确是使用过于频繁最后会被访问受限。
+ 
+ 为了保护豆瓣用户的数据；防止API被滥用或恶意使用，豆瓣要求每个API的使用者申请一个API Key, 而每个API Key唯一标识一个API使用者. 你可以在申请页面获得API Key， 在页面中填写必要信息后提交，你会得到你的API Key，例如
+
+c4579586f41a90372f762cb65c78be5d
+在之后的API使用过程中，你需要在请求中包括apikey参数，例如
+
+http://api.douban.com/people/1345767?apikey={apikey}
+如果只是想试验一下API，豆瓣也允许在不申请API Key的情况下进行API调用。不过在这种情况下，API调用被限制为每分钟请求不超过10次。使用API Key时，对访问的限制较为宽松，为每分钟40次，超过限制的话会被封禁。
+
+如果你的应用确实需要超过每分钟40次请求，请与联系，提供你的应用的详细信息（目的、apikey、使用API的方式、预计请求频次、网站url、是否商业行为、豆瓣API相关功能详述、截屏等等）以及访问豆瓣API所使用的服务器的IP地址信息，豆瓣审核通过后可设置白名单，放宽访问限制。
+
+加入白名单后，你需要对请求进行签名，以确认API Key的来源，详见API Key认证。
