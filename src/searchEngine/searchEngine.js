@@ -1,4 +1,3 @@
-var doubanBook = require("../douban/doubanBook");
 var bookUtil = require("../lib/bookUtil");
 var library = require("../libraryEngine/gdut");
 /*

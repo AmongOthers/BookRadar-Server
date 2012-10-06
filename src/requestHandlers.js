@@ -4,7 +4,6 @@ var fs = require("fs");
 var formidable = require("formidable");
 var url = require("url");
 var http = require("http");
-var doubanBook = require("./douban/doubanBook");
 var library = require("./libraryEngine/gdut");
 var Xml2JSON = require("./lib/Xml2JSON");
 var searchEngine = require("./searchEngine/searchEngine");

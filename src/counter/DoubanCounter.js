@@ -1,6 +1,7 @@
 DoubanDrawer = require("./DoubanDrawer");
 DoubanAccessTask = require("./DoubanAccessTask");
 DoubanDrawerProxy = require("./DoubanDrawerProxy");
+DoubanCachedDrawer = require("./DoubanCachedDrawer");
 bind = require("../lib/bind");
 
 var VALVE_OPEN_COUNT = 6;
@@ -36,17 +37,18 @@ DoubanCounter.isAccessLimitExceededError = function(error) {
 }
 
 DoubanCounter.prototype.query = function(keyword, resultPerGrid, listener) {
-	var drawer;
+	var resultDrawer;
 	//去除空白字符
 	keyword = keyword.replace(/\s+g/, "");
 	if(!this._drawers[keyword]) {
-		drawer = new DoubanDrawer(this, keyword, resultPerGrid, listener);
-		this._drawers[keyword] = drawer;
+		var drawer = new DoubanDrawer(this, keyword, resultPerGrid, listener);
+		resultDrawer = new DoubanCachedDrawer(resultPerGrid, drawer);
+		this._drawers[keyword] = resultDrawer;
 	}
 	else {
-		drawer = this._drawers[keyword];
+		resultDrawer = this._drawers[keyword];
 	}
-	return new DoubanDrawerProxy(drawer);
+	return new DoubanDrawerProxy(resultDrawer);
 }
 
 DoubanCounter.prototype.access = function(url, onResult, onError) {

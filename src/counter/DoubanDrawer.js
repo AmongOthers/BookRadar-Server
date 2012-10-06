@@ -1,25 +1,26 @@
 var querystring = require("querystring");
 var $ = require("jquery");
+var DoubanBook = require("./DoubanBook");
 	
 var URL_BASE = "http://api.douban.com/book/subjects?";
 function makeDoubanUrl(params) {
 	return URL_BASE + querystring.stringify(params);
 }
 
-var DoubanInitState = {
+var DrawerInitState = {
 		nextGrid: function(drawer, onNextGrid) {
 			drawer._getFirstGridAndTotalGridCount(function(error, books) {
 				if(!error) {
 					if(drawer._totalGridCount > 1) {
-						drawer._state = DoubanBusyState;
+						drawer._state = DrawerBusyState;
 					}
 					else {
-						drawer._state = DoubanFullState;
+						drawer._state = DrawerFullState;
 					}
 				}
 				else {
 					drawer._error = error;
-					drawer._state = DoubanErrorState;
+					drawer._state = DrawerErrorState;
 				}
 				onNextGrid(error, books);
 			});
@@ -29,17 +30,17 @@ var DoubanInitState = {
 		}
 }
 
- var DoubanBusyState = {
+ var DrawerBusyState = {
 		nextGrid: function(drawer, onNextGrid) {
 			drawer._getGridOf(drawer._grids.length, function(error, books) {
 				if(!error) {
 					if(drawer._grids.length == drawer._totalGridCount) {
-						drawer._state = DoubanFullState;
+						drawer._state = DrawerFullState;
 					}
 				}
 				else {
 					drawer._error = error;
-					drawer._state = DoubanErrorState;
+					drawer._state = DrawerErrorState;
 				}
 				onNextGrid(error, books);
 			});
@@ -49,7 +50,7 @@ var DoubanInitState = {
 		}
 }
 
-var DoubanErrorState = {
+var DrawerErrorState = {
 		nextGrid: function(drawer, onNextGrid) {
 			onNextGrid("already error: " + drawer._error, null);
 		},
@@ -58,7 +59,7 @@ var DoubanErrorState = {
 		}
 }
 
-var DoubanFullState = {
+var DrawerFullState = {
 		nextGrid: function(drawer, onNextGrid) {
 			onNextGrid("already full", null);
 		},
@@ -67,15 +68,14 @@ var DoubanFullState = {
 		}
 }
 
-function DoubanDrawer(counter, keyword, resultPerGrid) {
+function DoubanDrawer(counter, keyword, gridSize) {
 	this._counter = counter;
 	this._keyword = keyword;
-	this._resultPerGrid = resultPerGrid;
+	this._gridSize = gridSize;
 	this._totalResult = 0.0;
 	this._totalGridCount = 0;
 	this._grids = new Array();
-	this._cachedBooks = new Array();
-	this._state = DoubanInitState;
+	this._state = DrawerInitState;
 	this._error = null;
 }
 
@@ -86,6 +86,7 @@ DoubanDrawer.prototype.isFull = function() {
 
 //onNextGrid: function(error: object, books: Array<book>
 DoubanDrawer.prototype.nextGrid = function(onNextGrid) {
+	console.log("DoubanDrawer.nextGrid: " + this._grids.length);
 	this._state.nextGrid(this, onNextGrid);
 }
 
@@ -131,7 +132,7 @@ DoubanDrawer.prototype._getGridOf = function(num, onNextGrid) {
 			"max-results": 50,
 			startIndex: 0,
 	};
-	params.startIndex = this._resultPerGrid * num + 1;
+	params.startIndex = this._gridSize * num + 1;
 	var url = makeDoubanUrl(params);
 	var self = this;
 	this._counter.access(url, function(result) {
@@ -158,8 +159,8 @@ DoubanDrawer.prototype._parseGrid = function(str) {
 	var entriesDom = $(entries).find("entry");
 	var books = new Array();
 	entriesDom.each(function() {
-		var book = new Object();
-		book["title"] = $(this).find("title")[0].innerHTML;
+		var title = $(this).find("title")[0].innerHTML;
+		var book = new DoubanBook(title);
 		$(this).find("db\\:attribute").each(function() {
 			book[$(this).attr("name")] = this.innerHTML;
 		});
@@ -179,7 +180,7 @@ DoubanDrawer.prototype._parseTotalGridCount = function(str) {
 	var totalResultStr = str.match(/<opensearch:totalResults>(.*)<\/opensearch:totalResults>/);
 	if (totalResultStr) {
 		this._totalResult = parseFloat(totalResultStr[1]);
-		this._totalGridCount = Math.ceil(this._totalResult / this._resultPerGrid); 
+		this._totalGridCount = Math.ceil(this._totalResult / this._gridSize); 
 		return true;
 	} else {
 		return false;
