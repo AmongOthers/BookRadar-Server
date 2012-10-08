@@ -1,8 +1,8 @@
-var Book = require("Book");
+var Book = require("./Book");
 
 function DoubanBook(title) {
 	this._title = title;
-	this._titles = Book._splitTitle(title);
+	this._titles = Book.splitTitle(title);
 }
 
 DoubanBook.prototype.getTitle = function() {

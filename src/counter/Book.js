@@ -2,7 +2,7 @@ function Book() {
 	
 }
 
-Book._splitTitle = function(str) {
+Book.splitTitle = function(str) {
 	//去除空白字符
 	var temp = str.replace(/\s+/g, "");
 	//去除注释, 注意懒惰
@@ -25,3 +25,5 @@ Book._splitTitle = function(str) {
 	var titles = temp.split(/[==＝]/);
 	return titles;
 }
+
+module.exports = Book;

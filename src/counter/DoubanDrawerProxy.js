@@ -5,8 +5,8 @@ function DoubanDrawerProxy(drawer) {
 
 DoubanDrawerProxy.prototype.nextGrid = function(onNextGrid) {
 	if(this._index < this._drawer.getGridsLength()) {
-		this._index++;
 		var books =  this._drawer.getGrid(this._index);
+		this._index++;
 		onNextGrid(null, books);
 	}
 	else {

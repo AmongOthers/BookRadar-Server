@@ -1,4 +1,5 @@
 var http = require("http");
+var querystring = require("querystring");
 var bind = require("../lib/bind");
 var HttpResBuffer = require("../lib/HttpResBuffer");
 
@@ -52,10 +53,16 @@ GdutDrawer._access = function(url, onResult) {
 	http.get(url, bind(httpResBuffer.onRes, httpResBuffer)).on("error", errorCallback);;
 }
 
-var URL_BASE = "http://222.200.98.171:81/searchresult.aspx?anywords=<keyword>&dp=<gridSize>&page=<pageNum>";
+var URL_BASE = "http://222.200.98.171:81/searchresult.aspx?";
 GdutDrawer._buildUrl = function(keyword, gridSize, pageNum) {
-	//gdut是以1开始
-	return URL_BASE.replace("<keyword>", keyword).replace("<gridSize>", gridSize).replace("<pageNum>", pageNum + 1);
+	var params = {
+			anywords: keyword,
+			dp: gridSize,
+			//gdut是以1开始
+			page: pageNum + 1
+	};
+	var paramsStr = querystring.stringify(params);
+	return URL_BASE + paramsStr;
 }
 
 module.exports = GdutDrawer;
